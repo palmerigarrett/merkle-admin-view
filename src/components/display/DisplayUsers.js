@@ -29,7 +29,7 @@ function DisplayUsers() {
 
       if (data.error) {
         console.log(data.error)
-        setErrorState(true)
+        // setErrorState(true)
       } else {
         console.log(data)
         setUsers(data.res.users)
