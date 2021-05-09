@@ -49,12 +49,6 @@ function DisplayUsers() {
     return date
   }
 
-  if (tableEmpty) {
-    return (
-
-    )
-  }
-
   return (
     <>
       <Container fluid>
@@ -88,11 +82,11 @@ function DisplayUsers() {
             :
               tableEmpty
               ?
-                  <div>
-                    <p>
-                      There are no registered users yet.
-                    </p>
-                  <div/>
+                <div>
+                  <p>
+                    There are no registered users yet.
+                  </p>
+                </div>
               :
               <>
                 <Spinner/>
